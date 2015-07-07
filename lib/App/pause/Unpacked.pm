@@ -9,6 +9,9 @@ package App::pause::Unpacked;
 
 =head1 DESCRIPTION
 
+This distribution is for testing/development purposes. Users should just install
+the L<App::pause> distribution because it has fewer dependencies.
+
 
 =head1 SEE ALSO
 
