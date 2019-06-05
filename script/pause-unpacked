@@ -1,0 +1,37 @@
+#!perl
+
+# DATE
+# DIST
+# VERSION
+
+use 5.010001;
+use strict;
+use warnings;
+
+use App::pause;
+use Perinci::CmdLine::pause;
+
+Perinci::CmdLine::pause->new(
+    %App::pause::cli_attrs,
+)->run;
+
+# ABSTRACT: A CLI for PAUSE (unpacked version)
+# PODNAME:
+
+=head1 SYNOPSIS
+
+Use like you would use L<pause>:
+
+ % pause upload Foo-Bar-1.23.tar.gz
+ ...
+
+
+=head1 DESCRIPTION
+
+This is an unpacked version of L<pause>, for development/testing only. Normal
+users should just use L<pause>.
+
+
+=head1 SEE ALSO
+
+L<pause> from L<App::pause>.
